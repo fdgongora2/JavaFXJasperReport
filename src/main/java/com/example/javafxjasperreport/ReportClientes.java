@@ -32,7 +32,7 @@ public class ReportClientes extends JFrame {
         conexionBBDD = DriverManager.getConnection(servidor, usuario, passwd);
 
         //  Block of code to try
-        String reportSrcFile = "/home/fdgongora/Escritorio/IES/2DAM/DI/JavaFXJasperReport/src/main/java/com/example/javafxjasperreport/Clientes.jrxml";
+        String reportSrcFile = "src/main/java/com/example/javafxjasperreport/Clientes.jrxml";
 
         // First, compile jrxml file.
         JasperReport jasperReport = JasperCompileManager.compileReport(reportSrcFile);
