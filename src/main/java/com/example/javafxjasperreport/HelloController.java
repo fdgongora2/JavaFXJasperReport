@@ -17,7 +17,17 @@ public class HelloController {
 
         try {
             // --- Show Jasper Report on click-----
-            new ReportClientes().showReport();
+            new ReportClientes().showReportSimple();
+        } catch (ClassNotFoundException | JRException | SQLException e1) {
+            e1.printStackTrace();
+        }
+    }
+
+    @FXML
+    public void onImprimirListadoPedidosCliClick(ActionEvent actionEvent) {
+        try {
+            // --- Show Jasper Report on click-----
+            new ReportClientes().showReportConSubreport();
         } catch (ClassNotFoundException | JRException | SQLException e1) {
             e1.printStackTrace();
         }
