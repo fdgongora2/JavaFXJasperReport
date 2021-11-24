@@ -1,7 +1,7 @@
 # JavaFXJasperReport
 JasperReports example with JavaFX
 
-Ejemplo en el que se explica la forma de incluir informes en una aplicación JavaFX implementados mediante JasperReport.
+Ejemplo en el que se explica la forma de incluir informes en una aplicación JavaFX implementados mediante JasperReport. Los contenedores con la BBDD para que funcione el programa se encuentra disponible en un fichero docker-compose en https://github.com/fdgongora2/Docker_BBDD_Maria_Adminer
 
 **Informes que incluyen subinformes**
 
